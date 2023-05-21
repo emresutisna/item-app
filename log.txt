@@ -1,0 +1,49 @@
+submission1-item-db-1  | 2023-05-21T03:01:56.836+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=b75ff5fd61da
+submission1-item-db-1  | 2023-05-21T03:01:56.836+0000 I CONTROL  [initandlisten] db version v3.6.23
+submission1-item-db-1  | 2023-05-21T03:01:56.836+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+submission1-item-db-1  | 2023-05-21T03:01:56.836+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+submission1-item-db-1  | 2023-05-21T03:01:56.837+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+submission1-item-db-1  | 2023-05-21T03:01:56.837+0000 I CONTROL  [initandlisten] modules: none
+submission1-item-db-1  | 2023-05-21T03:01:56.837+0000 I CONTROL  [initandlisten] build environment:
+submission1-item-db-1  | 2023-05-21T03:01:56.838+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+submission1-item-db-1  | 2023-05-21T03:01:56.838+0000 I CONTROL  [initandlisten]     distarch: x86_64
+submission1-item-db-1  | 2023-05-21T03:01:56.839+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+submission1-item-db-1  | 2023-05-21T03:01:56.839+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+submission1-item-db-1  | 2023-05-21T03:01:56.840+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+submission1-item-db-1  | 2023-05-21T03:01:56.840+0000 I STORAGE  [initandlisten] 
+submission1-item-db-1  | 2023-05-21T03:01:56.840+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+submission1-item-db-1  | 2023-05-21T03:01:56.840+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+submission1-item-db-1  | 2023-05-21T03:01:56.840+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1578M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+submission1-item-db-1  | 2023-05-21T03:01:58.000+0000 I STORAGE  [initandlisten] WiredTiger message [1684638118:892][1:0x7f72c5ceda40], txn-recover: Main recovery loop: starting at 1/21248
+submission1-item-db-1  | 2023-05-21T03:01:58.107+0000 I STORAGE  [initandlisten] WiredTiger message [1684638118:107753][1:0x7f72c5ceda40], txn-recover: Recovering log 1 through 2
+submission1-item-db-1  | 2023-05-21T03:01:58.173+0000 I STORAGE  [initandlisten] WiredTiger message [1684638118:173279][1:0x7f72c5ceda40], txn-recover: Recovering log 2 through 2
+submission1-item-db-1  | 2023-05-21T03:01:58.222+0000 I STORAGE  [initandlisten] WiredTiger message [1684638118:222895][1:0x7f72c5ceda40], txn-recover: Set global recovery timestamp: 0
+submission1-item-db-1  | 2023-05-21T03:01:58.243+0000 I CONTROL  [initandlisten] 
+submission1-item-db-1  | 2023-05-21T03:01:58.243+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+submission1-item-db-1  | 2023-05-21T03:01:58.243+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+submission1-item-db-1  | 2023-05-21T03:01:58.243+0000 I CONTROL  [initandlisten] 
+submission1-item-db-1  | 2023-05-21T03:01:58.249+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+submission1-item-db-1  | 2023-05-21T03:01:58.250+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+submission1-item-db-1  | 2023-05-21T03:01:58.250+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+submission1-item-db-1  | 2023-05-21T03:01:58.250+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+submission1-item-db-1  | 2023-05-21T03:01:59.262+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:59082 #1 (1 connection now open)
+submission1-item-db-1  | 2023-05-21T03:01:59.283+0000 I NETWORK  [conn1] received client metadata from 172.20.0.3:59082 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.76-linuxkit" }, platform: "Node.js v14.21.3, LE, mongodb-core: 2.1.20" }
+submission1-item-db-1  | 2023-05-21T03:07:24.310+0000 I STORAGE  [conn1] createCollection: accumulator.documents with generated UUID: 31ae5bd2-d9e6-489d-b865-4594a8852535
+submission1-item-app-1  | 
+submission1-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission1-item-app-1  | > node ./bin/www
+submission1-item-app-1  | 
+submission1-item-app-1  | NODE_ENV: production
+submission1-item-app-1  | Connected to database
+submission1-item-app-1  | [0mGET / [32m200 [0m380.293 ms - 785[0m
+submission1-item-app-1  | [0mGET /javascripts/dist/dist.min.js [32m200 [0m11.860 ms - 186999[0m
+submission1-item-app-1  | [0mGET /stylesheets/style.css [32m200 [0m108.098 ms - 519[0m
+submission1-item-app-1  | [0mGET /api [32m200 [0m18.387 ms - 2[0m
+submission1-item-app-1  | [0mGET / [32m200 [0m1.554 ms - 785[0m
+submission1-item-app-1  | [0mGET /stylesheets/style.css [32m200 [0m3.034 ms - 519[0m
+submission1-item-app-1  | [0mGET /javascripts/dist/dist.min.js [32m200 [0m0.959 ms - 186999[0m
+submission1-item-app-1  | [0mGET /api [32m200 [0m3.408 ms - 2[0m
+submission1-item-app-1  | [0mGET /apple-touch-icon-precomposed.png [33m404 [0m31.537 ms - 270[0m
+submission1-item-app-1  | [0mGET /apple-touch-icon.png [33m404 [0m0.922 ms - 270[0m
+submission1-item-app-1  | [0mGET /favicon.ico [33m404 [0m1.417 ms - 270[0m
+submission1-item-app-1  | [0mPOST /api [32m201 [0m40.749 ms - 60[0m
